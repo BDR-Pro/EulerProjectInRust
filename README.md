@@ -30,7 +30,7 @@ cd EulerProjectInRust
 Navigate to each problem like you're choosing your battles.
 
 ```bash
-cp problem_1.rs main.rs
+cp src/factorial.rs main.rs
 cargo run
 ```
 
