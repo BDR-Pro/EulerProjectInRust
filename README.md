@@ -52,4 +52,8 @@ So, what are you waiting for? Let's get Rusty and conquer Project Euler, one pro
 
 ---
 
+
 Remember, this journey is yours. Make it fun, make it challenging, and most importantly, make it rewarding. Let's code our way to victory! 🎉
+
+
+![euler_portrait](https://github.com/BDR-Pro/project-euler/assets/91114465/0ce7a48d-2af4-4eca-92bb-4bdbc2a4a9bb)
