@@ -10,7 +10,9 @@ fn char_to_number(c: char) -> Option<u32> {
 }
 
 
-fn main() -> io::Result<()> {
+pub fn main() -> io::Result<()> {
+    let start = std::time::Instant::now();
+
     let path = Path::new("C:\\Users\\bdrkh\\Downloads\\names.txt");
     let file = File::open(&path)?;
     let reader = io::BufReader::new(file);
@@ -42,5 +44,7 @@ fn main() -> io::Result<()> {
     }
 
     println!("Total score: {}", result);
+    let duration = start.elapsed();
+    println!("Time to run it: {:?}", duration);
     Ok(())
 }

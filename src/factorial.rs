@@ -1,7 +1,9 @@
 use num_bigint::BigUint;
 use num_traits::One; 
 
-fn main() {
+pub fn main() {
+    let start = std::time::Instant::now();
+
     let mut factorial: BigUint = One::one();
     
     for i in 1..=100 {
@@ -16,4 +18,6 @@ fn main() {
     }
     
     println!("The sum of the digits of 100! is: {}", sum);
+    let duration = start.elapsed();
+    println!("Time to run it: {:?}", duration);
 }
